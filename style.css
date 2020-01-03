@@ -8,7 +8,7 @@ body {
 #splash {
     height: 45vw;
     width: 65vw;
-    background-image: url(splash_portfolio_smal.jpg);
+    background-image: url(billeder/splash_portfolio_smal.jpg);
     right: 4vw;
     top: 10.5vw;
     background-size: cover;
@@ -145,7 +145,7 @@ nav a {
 #portraet {
     width: 20vw;
     height: 15vw;
-    background-image: url(cv_billede.jpg);
+    background-image: url(billeder/cv_billede.jpg);
     background-size: cover;
     position: absolute;
     left: 2vw;
@@ -220,7 +220,7 @@ nav a {
 #billede1_web {
     width: 26vw;
     height: 13vw;
-    background-image: url(billede1.png);
+    background-image: url(billeder/billede1.png);
     background-size: cover;
     position: absolute;
     top: 0.75vw;
@@ -231,7 +231,7 @@ nav a {
 #billede2_web {
     width: 26vw;
     height: 13vw;
-    background-image: url(billede2.png);
+    background-image: url(billeder/billede2.png);
     background-size: cover;
     position: absolute;
     top: 14.7vw;
@@ -242,7 +242,7 @@ nav a {
 #billede3_web {
     width: 15vw;
     height: 26.5vw;
-    background-image: url(billede3.png);
+    background-image: url(billeder/billede3.png);
     background-size: cover;
     position: absolute;
     top: 1.75vw;
@@ -308,7 +308,7 @@ nav a {
 #billede4 {
     width: 24vw;
     height: 32vw;
-    background-image: url(billede4.png);
+    background-image: url(billeder/billede4.png);
     background-size: cover;
     position: absolute;
     top: 0.75vw;
@@ -319,7 +319,7 @@ nav a {
 #billede5 {
     width: 24vw;
     height: 32vw;
-    background-image: url(billede5.png);
+    background-image: url(billeder/billede5.png);
     background-size: cover;
     position: absolute;
     top: 0.75vw;
@@ -330,7 +330,7 @@ nav a {
 #billede6 {
     width: 24vw;
     height: 32vw;
-    background-image: url(billede6.png);
+    background-image: url(billeder/billede6.png);
     background-size: cover;
     position: absolute;
     top: 35vw;
@@ -341,7 +341,7 @@ nav a {
 #billede7 {
     width: 24vw;
     height: 32vw;
-    background-image: url(billede7.png);
+    background-image: url(billeder/billede7.png);
     background-size: cover;
     position: absolute;
     top: 35vw;
@@ -352,7 +352,7 @@ nav a {
 #billede8 {
     width: 24vw;
     height: 32vw;
-    background-image: url(billede8.png);
+    background-image: url(billeder/billede8.png);
     background-size: cover;
     position: absolute;
     top: 70vw;
@@ -411,7 +411,7 @@ nav a {
 #billede9 {
     width: 18vw;
     height: 39vw;
-    background-image: url(billede9.png);
+    background-image: url(billeder/billede9.png);
     background-size: cover;
     position: absolute;
     top: 4vw;
@@ -423,7 +423,7 @@ nav a {
 #billede10 {
     width: 18vw;
     height: 39vw;
-    background-image: url(billede10.png);
+    background-image: url(billeder/billede10.png);
     background-size: cover;
     position: absolute;
     top: 0.75vw;
@@ -487,7 +487,7 @@ nav a {
 #billede11 {
     width: 20vw;
     height: 14vw;
-    background-image: url(billede11.png);
+    background-image: url(billeder/billede11.png);
     background-size: cover;
     position: absolute;
     top: 2vw;
@@ -498,7 +498,7 @@ nav a {
 #billede12 {
     width: 20vw;
     height: 14vw;
-    background-image: url(billede12.png);
+    background-image: url(billeder/billede12.png);
     background-size: cover;
     position: absolute;
     top: 2vw;
@@ -509,7 +509,7 @@ nav a {
 #billede13 {
     width: 20vw;
     height: 14vw;
-    background-image: url(billede13.png);
+    background-image: url(billeder/billede13.png);
     background-size: cover;
     position: absolute;
     top: 18vw;
@@ -520,7 +520,7 @@ nav a {
 #billede14 {
     width: 20vw;
     height: 14vw;
-    background-image: url(billede14.png);
+    background-image: url(billeder/billede14.png);
     background-size: cover;
     position: absolute;
     top: 18vw;
@@ -531,7 +531,7 @@ nav a {
 #billede15 {
     width: 20vw;
     height: 14vw;
-    background-image: url(billede15.png);
+    background-image: url(billeder/billede15.png);
     background-size: cover;
     position: absolute;
     top: 34vw;
@@ -592,7 +592,7 @@ nav a {
 #billede16 {
     width: 32vw;
     height: 18vw;
-    background-image: url(billede16.png);
+    background-image: url(billeder/billede16.png);
     background-size: cover;
     position: absolute;
     top: 0.75vw;
@@ -603,7 +603,7 @@ nav a {
 #billede17 {
     width: 32vw;
     height: 18vw;
-    background-image: url(billede17.png);
+    background-image: url(billeder/billede17.png);
     background-size: cover;
     position: absolute;
     top: 0.75vw;
@@ -614,7 +614,7 @@ nav a {
 #billede18 {
     width: 32vw;
     height: 18vw;
-    background-image: url(billede18.png);
+    background-image: url(billeder/billede18.png);
     background-size: cover;
     position: absolute;
     top: 20vw;
@@ -625,7 +625,7 @@ nav a {
 #billede19 {
     width: 32vw;
     height: 18vw;
-    background-image: url(billede19.png);
+    background-image: url(billeder/billede19.png);
     background-size: cover;
     position: absolute;
     top: 20vw;
@@ -636,7 +636,7 @@ nav a {
 #billede20 {
     width: 32vw;
     height: 18vw;
-    background-image: url(billede20.png);
+    background-image: url(billeder/billede20.png);
     background-size: cover;
     position: absolute;
     top: 39vw;
@@ -647,7 +647,7 @@ nav a {
 #billede21 {
     width: 32vw;
     height: 18vw;
-    background-image: url(billede21.png);
+    background-image: url(billeder/billede21.png);
     background-size: cover;
     position: absolute;
     top: 39vw;
@@ -706,7 +706,7 @@ nav a {
 #billede22 {
     width: 40vw;
     height: 22.5vw;
-    background-image: url(billede22.png);
+    background-image: url(billeder/billede22.png);
     background-size: cover;
     position: absolute;
     top: 0.75vw;
@@ -765,7 +765,7 @@ nav a {
 #billede23 {
     width: 32vw;
     height: 18vw;
-    background-image: url(billede23.png);
+    background-image: url(billeder/billede23.png);
     background-size: cover;
     position: absolute;
     top: 0.75vw;
@@ -776,7 +776,7 @@ nav a {
 #billede24 {
     width: 32vw;
     height: 18vw;
-    background-image: url(billede24.png);
+    background-image: url(billeder/billede24.png);
     background-size: cover;
     position: absolute;
     top: 0.75vw;
@@ -787,7 +787,7 @@ nav a {
 #billede25 {
     width: 32vw;
     height: 18vw;
-    background-image: url(billede25.png);
+    background-image: url(billeder/billede25.png);
     background-size: cover;
     position: absolute;
     top: 20vw;
@@ -798,7 +798,7 @@ nav a {
 #billede26 {
     width: 32vw;
     height: 18vw;
-    background-image: url(billede26.png);
+    background-image: url(billeder/billede26.png);
     background-size: cover;
     position: absolute;
     top: 20vw;
@@ -830,6 +830,158 @@ nav a {
 }
 
 #tekst_3_ani {
+    width: 40vw;
+    height: 25vw;
+    background-color: #1d3ad8;
+    position: absolute;
+    top: 9vw;
+    left: 2vw;
+    color: #a3b2ff;
+    font-family: Pt sans;
+    line-height: 1.6em;
+
+}
+
+
+/************ indhold *********/
+
+#ind_video_container {
+    width: 40vw;
+    height: 25vw;
+    background-color: #536df7;
+    position: absolute;
+    left: 33vw;
+    top: 10vw;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+video {
+    height: 20vw;
+    width: 30vw;
+    position: absolute;
+    top: 0.75vw;
+    left: 1vw;
+
+}
+
+#ind_tekst_container1 {
+    width: 50vw;
+    height: 38vw;
+    background-color: #1d3ad8;
+    position: absolute;
+    left: 45vw;
+    top: 40vw;
+    display: flex;
+    margin-bottom: 2vw;
+}
+
+#overskrift_1_ind {
+    width: 48vw;
+    height: 20vw;
+    background-color: #1d3ad8;
+    position: absolute;
+    text-align: end;
+    right: 1vw;
+    color: #a3b2ff;
+    font-family: Pt sans;
+
+}
+
+#tekst_1_ind {
+    width: 40vw;
+    height: 25vw;
+    background-color: #1d3ad8;
+    position: absolute;
+    top: 9vw;
+    left: 2vw;
+    color: #a3b2ff;
+    font-family: Pt sans;
+    line-height: 1.6em;
+
+}
+
+#ind_billede_container_1 {
+    width: 65vw;
+    height: 45vw;
+    background-color: #536df7;
+    position: absolute;
+    left: 33vw;
+    top: 85vw;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+#billede27 {
+    width: 32vw;
+    height: 18vw;
+    background-image: url(billeder/billede27.png);
+    background-size: cover;
+    position: absolute;
+    top: 0.75vw;
+    left: 1vw;
+
+}
+
+#billede28 {
+    width: 32vw;
+    height: 18vw;
+    background-image: url(billeder/billede28.png);
+    background-size: cover;
+    position: absolute;
+    top: 0.75vw;
+    left: 33vw;
+
+}
+
+#billede29 {
+    width: 32vw;
+    height: 18vw;
+    background-image: url(billeder/billede29.png);
+    background-size: cover;
+    position: absolute;
+    top: 20vw;
+    left: 1vw;
+
+}
+
+#billede30 {
+    width: 32vw;
+    height: 18vw;
+    background-image: url(billeder/billede30.png);
+    background-size: cover;
+    position: absolute;
+    top: 20vw;
+    left: 33vw;
+
+}
+
+#ind_tekst_container2 {
+    width: 50vw;
+    height: 56vw;
+    background-color: #1d3ad8;
+    position: absolute;
+    left: 45vw;
+    top: 137vw;
+    display: flex;
+    margin-bottom: 2vw;
+}
+
+#overskrift_2_ind {
+    width: 48vw;
+    height: 20vw;
+    background-color: #1d3ad8;
+    position: absolute;
+    text-align: end;
+    right: 1vw;
+    color: #a3b2ff;
+    font-family: Pt sans;
+
+}
+
+#tekst_2_ind {
     width: 40vw;
     height: 25vw;
     background-color: #1d3ad8;
