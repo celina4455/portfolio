@@ -1,0 +1,843 @@
+body {
+    background-color: #fcaf21;
+}
+
+
+/******** forside **********/
+
+#splash {
+    height: 45vw;
+    width: 65vw;
+    background-image: url(splash_portfolio_smal.jpg);
+    right: 4vw;
+    top: 10.5vw;
+    background-size: cover;
+    position: absolute;
+
+}
+
+.typewriter {
+    font-family: Courier, monospace;
+    display: inline-block;
+    position: absolute;
+    left: 33vw;
+    top: 3vw;
+}
+
+.typewriter_text {
+    display: inline-block;
+    overflow: hidden;
+    animation: typing 7s steps(30, end), blink .75s step-end infinite;
+    animation-iteration-count: infinite;
+    white-space: nowrap;
+    font-size: 2.5em;
+    font-weight: 500;
+    border-right: 4px solid orange;
+    box-sizing: border-box;
+    color: #536df7;
+}
+
+
+/******** nav **********/
+
+nav {
+    display: flex;
+    flex-direction: row;
+    width: 25vw;
+    background-color: #fcaf21;
+    position: fixed;
+    top: 11vw;
+    z-index: 1;
+}
+
+ul {
+    list-style-type: none;
+}
+
+nav a {
+    color: #1d3ad8;
+    text-decoration: none;
+    font-size: 2.2em;
+    line-height: 2em;
+    font-family: Courier, monospace;
+
+}
+
+
+#nav_forside {
+    margin-left: 1vw;
+}
+
+#nav_celina {
+    margin-left: 14vw;
+}
+
+#nav_web {
+    margin-left: 1vw;
+}
+
+#nav_ux {
+    margin-left: 14vw;
+}
+
+#nav_animation {
+    margin-left: 1vw;
+}
+
+#nav_indhold {
+    margin-left: 14vw;
+}
+
+
+/******** web **********/
+
+.typewriter_text_andet {
+    display: inline-block;
+    overflow: hidden;
+    animation: typing 7s steps(30, end), blink .75s step-end infinite;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    white-space: nowrap;
+    font-size: 2.5em;
+    font-weight: 500;
+    border-right: 4px solid orange;
+    box-sizing: border-box;
+    color: #536df7;
+}
+
+@keyframes typing {
+    0% {
+        width: 0%
+    }
+
+    50% {
+        width: 100%
+    }
+
+    100% {
+        width: 100%
+    }
+}
+
+@keyframes blink {
+
+    0% {
+        border-color: transparent
+    }
+
+    50% {
+        border-color: #022062;
+    }
+}
+
+
+/******** cv **********/
+
+#cv_billede_container {
+    width: 30vw;
+    height: 20vw;
+    background-color: #536df7;
+    position: absolute;
+    left: 30vw;
+    top: 10vw;
+}
+
+#portraet {
+    width: 20vw;
+    height: 15vw;
+    background-image: url(cv_billede.jpg);
+    background-size: cover;
+    position: absolute;
+    left: 2vw;
+    top: 2vw;
+
+}
+
+#cv_tekst_container {
+    width: 50vw;
+    height: 72vw;
+    background-color: #1d3ad8;
+    position: absolute;
+    left: 45vw;
+    top: 32vw;
+    display: flex;
+    margin-bottom: 2vw;
+}
+
+#overskrift_cv {
+    width: 48vw;
+    height: 60vw;
+    background-color: #1d3ad8;
+    position: absolute;
+    text-align: end;
+    right: 1vw;
+    color: #a3b2ff;
+    font-family: Pt sans;
+
+}
+
+#tekst_cv {
+    width: 40vw;
+    height: 50vw;
+    background-color: #1d3ad8;
+    position: absolute;
+    top: 9vw;
+    left: 2vw;
+    color: #a3b2ff;
+    font-family: Pt sans;
+    line-height: 1.6em;
+
+}
+
+
+/******** web **********/
+
+#web_billede_container {
+    width: 50vw;
+    height: 30vw;
+    background-color: #536df7;
+    position: absolute;
+    left: 33vw;
+    top: 10vw;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+}
+
+#right_web {
+    flex-grow: 1;
+    flex-basis: 500px;
+
+}
+
+#left_web {
+    flex-grow: 1;
+    flex-basis: 500px;
+
+}
+
+#billede1_web {
+    width: 26vw;
+    height: 13vw;
+    background-image: url(billede1.png);
+    background-size: cover;
+    position: absolute;
+    top: 0.75vw;
+    left: 1vw;
+
+}
+
+#billede2_web {
+    width: 26vw;
+    height: 13vw;
+    background-image: url(billede2.png);
+    background-size: cover;
+    position: absolute;
+    top: 14.7vw;
+    left: 1vw;
+
+}
+
+#billede3_web {
+    width: 15vw;
+    height: 26.5vw;
+    background-image: url(billede3.png);
+    background-size: cover;
+    position: absolute;
+    top: 1.75vw;
+    right: 3vw;
+
+}
+
+#web_tekst_container {
+    width: 50vw;
+    height: 60vw;
+    background-color: #1d3ad8;
+    position: absolute;
+    left: 45vw;
+    top: 43vw;
+    display: flex;
+    margin-bottom: 2vw;
+}
+
+#overskrift_web {
+    width: 48vw;
+    height: 60vw;
+    background-color: #1d3ad8;
+    position: absolute;
+    text-align: end;
+    right: 1vw;
+    color: #a3b2ff;
+    font-family: Pt sans;
+
+}
+
+#tekst_web {
+    width: 40vw;
+    height: 45vw;
+    background-color: #1d3ad8;
+    position: absolute;
+    top: 9vw;
+    left: 2vw;
+    color: #a3b2ff;
+    font-family: Pt sans;
+    line-height: 1.6em;
+
+}
+
+#tekst_web a {
+    color: #a3b2ff;
+    font-family: Pt sans;
+}
+
+/******** ux **********/
+
+#ux_billede_container_1 {
+    width: 60vw;
+    height: 110vw;
+    background-color: #536df7;
+    position: absolute;
+    left: 33vw;
+    top: 10vw;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+#billede4 {
+    width: 24vw;
+    height: 32vw;
+    background-image: url(billede4.png);
+    background-size: cover;
+    position: absolute;
+    top: 0.75vw;
+    left: 1vw;
+
+}
+
+#billede5 {
+    width: 24vw;
+    height: 32vw;
+    background-image: url(billede5.png);
+    background-size: cover;
+    position: absolute;
+    top: 0.75vw;
+    left: 27vw;
+
+}
+
+#billede6 {
+    width: 24vw;
+    height: 32vw;
+    background-image: url(billede6.png);
+    background-size: cover;
+    position: absolute;
+    top: 35vw;
+    left: 1vw;
+
+}
+
+#billede7 {
+    width: 24vw;
+    height: 32vw;
+    background-image: url(billede7.png);
+    background-size: cover;
+    position: absolute;
+    top: 35vw;
+    left: 27vw;
+
+}
+
+#billede8 {
+    width: 24vw;
+    height: 32vw;
+    background-image: url(billede8.png);
+    background-size: cover;
+    position: absolute;
+    top: 70vw;
+    left: 1vw;
+
+}
+
+#ux_tekst_container1 {
+    width: 50vw;
+    height: 65vw;
+    background-color: #1d3ad8;
+    position: absolute;
+    left: 45vw;
+    top: 125vw;
+    display: flex;
+    margin-bottom: 2vw;
+}
+
+#overskrift_1_ux {
+    width: 48vw;
+    height: 60vw;
+    background-color: #1d3ad8;
+    position: absolute;
+    text-align: end;
+    right: 1vw;
+    color: #a3b2ff;
+    font-family: Pt sans;
+
+}
+
+#tekst_1_ux {
+    width: 40vw;
+    height: 45vw;
+    background-color: #1d3ad8;
+    position: absolute;
+    top: 9vw;
+    left: 2vw;
+    color: #a3b2ff;
+    font-family: Pt sans;
+    line-height: 1.6em;
+
+}
+
+#ux_billede_container_2 {
+    width: 50vw;
+    height: 47vw;
+    background-color: #536df7;
+    position: absolute;
+    left: 33vw;
+    top: 192vw;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+#billede9 {
+    width: 18vw;
+    height: 39vw;
+    background-image: url(billede9.png);
+    background-size: cover;
+    position: absolute;
+    top: 4vw;
+    left: 15vw;
+    z-index: 1;
+
+}
+
+#billede10 {
+    width: 18vw;
+    height: 39vw;
+    background-image: url(billede10.png);
+    background-size: cover;
+    position: absolute;
+    top: 0.75vw;
+    left: 1vw;
+
+}
+
+#ux_tekst_container2 {
+    width: 50vw;
+    height: 50vw;
+    background-color: #1d3ad8;
+    position: absolute;
+    left: 45vw;
+    top: 245vw;
+    display: flex;
+    margin-bottom: 2vw;
+}
+
+#overskrift_2_ux {
+    width: 48vw;
+    height: 30vw;
+    background-color: #1d3ad8;
+    position: absolute;
+    text-align: end;
+    right: 1vw;
+    color: #a3b2ff;
+    font-family: Pt sans;
+
+}
+
+#tekst_2_ux {
+    width: 40vw;
+    height: 25vw;
+    background-color: #1d3ad8;
+    position: absolute;
+    top: 9vw;
+    left: 2vw;
+    color: #a3b2ff;
+    font-family: Pt sans;
+    line-height: 1.6em;
+
+}
+
+#tekst_2_ux a {
+    color: #a3b2ff;
+    font-family: Pt sans;
+}
+
+#ux_billede_container_3 {
+    width: 58vw;
+    height: 50vw;
+    background-color: #536df7;
+    position: absolute;
+    left: 33vw;
+    top: 302vw;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+#billede11 {
+    width: 20vw;
+    height: 14vw;
+    background-image: url(billede11.png);
+    background-size: cover;
+    position: absolute;
+    top: 2vw;
+    left: 2vw;
+
+}
+
+#billede12 {
+    width: 20vw;
+    height: 14vw;
+    background-image: url(billede12.png);
+    background-size: cover;
+    position: absolute;
+    top: 2vw;
+    left: 24vw;
+
+}
+
+#billede13 {
+    width: 20vw;
+    height: 14vw;
+    background-image: url(billede13.png);
+    background-size: cover;
+    position: absolute;
+    top: 18vw;
+    left: 2vw;
+
+}
+
+#billede14 {
+    width: 20vw;
+    height: 14vw;
+    background-image: url(billede14.png);
+    background-size: cover;
+    position: absolute;
+    top: 18vw;
+    left: 24vw;
+
+}
+
+#billede15 {
+    width: 20vw;
+    height: 14vw;
+    background-image: url(billede15.png);
+    background-size: cover;
+    position: absolute;
+    top: 34vw;
+    left: 2vw;
+
+}
+
+#ux_tekst_container3 {
+    width: 50vw;
+    height: 65vw;
+    background-color: #1d3ad8;
+    position: absolute;
+    left: 45vw;
+    top: 360vw;
+    display: flex;
+    margin-bottom: 2vw;
+}
+
+#overskrift_3_ux {
+    width: 48vw;
+    height: 30vw;
+    background-color: #1d3ad8;
+    position: absolute;
+    text-align: end;
+    right: 1vw;
+    color: #a3b2ff;
+    font-family: Pt sans;
+
+}
+
+#tekst_3_ux {
+    width: 40vw;
+    height: 25vw;
+    background-color: #1d3ad8;
+    position: absolute;
+    top: 9vw;
+    left: 2vw;
+    color: #a3b2ff;
+    font-family: Pt sans;
+    line-height: 1.6em;
+
+}
+
+/**********' animation **********/
+
+#ani_billede_container_1 {
+    width: 65vw;
+    height: 62vw;
+    background-color: #536df7;
+    position: absolute;
+    left: 33vw;
+    top: 10vw;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+#billede16 {
+    width: 32vw;
+    height: 18vw;
+    background-image: url(billede16.png);
+    background-size: cover;
+    position: absolute;
+    top: 0.75vw;
+    left: 1vw;
+
+}
+
+#billede17 {
+    width: 32vw;
+    height: 18vw;
+    background-image: url(billede17.png);
+    background-size: cover;
+    position: absolute;
+    top: 0.75vw;
+    left: 33vw;
+
+}
+
+#billede18 {
+    width: 32vw;
+    height: 18vw;
+    background-image: url(billede18.png);
+    background-size: cover;
+    position: absolute;
+    top: 20vw;
+    left: 1vw;
+
+}
+
+#billede19 {
+    width: 32vw;
+    height: 18vw;
+    background-image: url(billede19.png);
+    background-size: cover;
+    position: absolute;
+    top: 20vw;
+    left: 33vw;
+
+}
+
+#billede20 {
+    width: 32vw;
+    height: 18vw;
+    background-image: url(billede20.png);
+    background-size: cover;
+    position: absolute;
+    top: 39vw;
+    left: 1vw;
+
+}
+
+#billede21 {
+    width: 32vw;
+    height: 18vw;
+    background-image: url(billede21.png);
+    background-size: cover;
+    position: absolute;
+    top: 39vw;
+    left: 33vw;
+
+}
+
+#ani_tekst_container1 {
+    width: 50vw;
+    height: 40vw;
+    background-color: #1d3ad8;
+    position: absolute;
+    left: 45vw;
+    top: 77vw;
+    display: flex;
+    margin-bottom: 2vw;
+}
+
+#overskrift_1_ani {
+    width: 48vw;
+    height: 20vw;
+    background-color: #1d3ad8;
+    position: absolute;
+    text-align: end;
+    right: 1vw;
+    color: #a3b2ff;
+    font-family: Pt sans;
+
+}
+
+#tekst_1_ani {
+    width: 40vw;
+    height: 25vw;
+    background-color: #1d3ad8;
+    position: absolute;
+    top: 9vw;
+    left: 2vw;
+    color: #a3b2ff;
+    font-family: Pt sans;
+    line-height: 1.6em;
+
+}
+
+#ani_billede_container_2 {
+    width: 52vw;
+    height: 30vw;
+    background-color: #536df7;
+    position: absolute;
+    left: 33vw;
+    top: 123vw;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+#billede22 {
+    width: 40vw;
+    height: 22.5vw;
+    background-image: url(billede22.png);
+    background-size: cover;
+    position: absolute;
+    top: 0.75vw;
+    left: 1vw;
+
+}
+
+#ani_tekst_container2 {
+    width: 50vw;
+    height: 56vw;
+    background-color: #1d3ad8;
+    position: absolute;
+    left: 45vw;
+    top: 160vw;
+    display: flex;
+    margin-bottom: 2vw;
+}
+
+#overskrift_2_ani {
+    width: 48vw;
+    height: 20vw;
+    background-color: #1d3ad8;
+    position: absolute;
+    text-align: end;
+    right: 1vw;
+    color: #a3b2ff;
+    font-family: Pt sans;
+
+}
+
+#tekst_2_ani {
+    width: 40vw;
+    height: 25vw;
+    background-color: #1d3ad8;
+    position: absolute;
+    top: 9vw;
+    left: 2vw;
+    color: #a3b2ff;
+    font-family: Pt sans;
+    line-height: 1.6em;
+
+}
+
+#ani_billede_container_3 {
+    width: 65vw;
+    height: 45vw;
+    background-color: #536df7;
+    position: absolute;
+    left: 33vw;
+    top: 222vw;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+#billede23 {
+    width: 32vw;
+    height: 18vw;
+    background-image: url(billede23.png);
+    background-size: cover;
+    position: absolute;
+    top: 0.75vw;
+    left: 1vw;
+
+}
+
+#billede24 {
+    width: 32vw;
+    height: 18vw;
+    background-image: url(billede24.png);
+    background-size: cover;
+    position: absolute;
+    top: 0.75vw;
+    left: 33vw;
+
+}
+
+#billede25 {
+    width: 32vw;
+    height: 18vw;
+    background-image: url(billede25.png);
+    background-size: cover;
+    position: absolute;
+    top: 20vw;
+    left: 1vw;
+
+}
+
+#billede26 {
+    width: 32vw;
+    height: 18vw;
+    background-image: url(billede26.png);
+    background-size: cover;
+    position: absolute;
+    top: 20vw;
+    left: 33vw;
+
+}
+
+#ani_tekst_container3 {
+    width: 50vw;
+    height: 56vw;
+    background-color: #1d3ad8;
+    position: absolute;
+    left: 45vw;
+    top: 275vw;
+    display: flex;
+    margin-bottom: 2vw;
+}
+
+#overskrift_3_ani {
+    width: 48vw;
+    height: 20vw;
+    background-color: #1d3ad8;
+    position: absolute;
+    text-align: end;
+    right: 1vw;
+    color: #a3b2ff;
+    font-family: Pt sans;
+
+}
+
+#tekst_3_ani {
+    width: 40vw;
+    height: 25vw;
+    background-color: #1d3ad8;
+    position: absolute;
+    top: 9vw;
+    left: 2vw;
+    color: #a3b2ff;
+    font-family: Pt sans;
+    line-height: 1.6em;
+
+}
