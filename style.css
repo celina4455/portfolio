@@ -164,9 +164,9 @@ nav a {
     margin-bottom: 2vw;
 }
 
-#overskrift_cv {
+h1 {
     width: 48vw;
-    height: 60vw;
+    height: 10vw;
     background-color: #1d3ad8;
     position: absolute;
     text-align: end;
@@ -176,9 +176,8 @@ nav a {
 
 }
 
-#tekst_cv {
+.tekst {
     width: 40vw;
-    height: 50vw;
     background-color: #1d3ad8;
     position: absolute;
     top: 9vw;
@@ -189,6 +188,10 @@ nav a {
 
 }
 
+.tekst a {
+    color: #a3b2ff;
+    font-family: Pt sans;
+}
 
 /******** web **********/
 
@@ -261,35 +264,11 @@ nav a {
     margin-bottom: 2vw;
 }
 
-#overskrift_web {
-    width: 48vw;
-    height: 60vw;
-    background-color: #1d3ad8;
-    position: absolute;
-    text-align: end;
-    right: 1vw;
-    color: #a3b2ff;
-    font-family: Pt sans;
 
-}
 
-#tekst_web {
-    width: 40vw;
-    height: 45vw;
-    background-color: #1d3ad8;
-    position: absolute;
-    top: 9vw;
-    left: 2vw;
-    color: #a3b2ff;
-    font-family: Pt sans;
-    line-height: 1.6em;
 
-}
 
-#tekst_web a {
-    color: #a3b2ff;
-    font-family: Pt sans;
-}
+
 
 /******** ux **********/
 
@@ -371,30 +350,7 @@ nav a {
     margin-bottom: 2vw;
 }
 
-#overskrift_1_ux {
-    width: 48vw;
-    height: 60vw;
-    background-color: #1d3ad8;
-    position: absolute;
-    text-align: end;
-    right: 1vw;
-    color: #a3b2ff;
-    font-family: Pt sans;
 
-}
-
-#tekst_1_ux {
-    width: 40vw;
-    height: 45vw;
-    background-color: #1d3ad8;
-    position: absolute;
-    top: 9vw;
-    left: 2vw;
-    color: #a3b2ff;
-    font-family: Pt sans;
-    line-height: 1.6em;
-
-}
 
 #ux_billede_container_2 {
     width: 50vw;
@@ -442,35 +398,9 @@ nav a {
     margin-bottom: 2vw;
 }
 
-#overskrift_2_ux {
-    width: 48vw;
-    height: 30vw;
-    background-color: #1d3ad8;
-    position: absolute;
-    text-align: end;
-    right: 1vw;
-    color: #a3b2ff;
-    font-family: Pt sans;
 
-}
 
-#tekst_2_ux {
-    width: 40vw;
-    height: 25vw;
-    background-color: #1d3ad8;
-    position: absolute;
-    top: 9vw;
-    left: 2vw;
-    color: #a3b2ff;
-    font-family: Pt sans;
-    line-height: 1.6em;
 
-}
-
-#tekst_2_ux a {
-    color: #a3b2ff;
-    font-family: Pt sans;
-}
 
 #ux_billede_container_3 {
     width: 58vw;
@@ -550,30 +480,9 @@ nav a {
     margin-bottom: 2vw;
 }
 
-#overskrift_3_ux {
-    width: 48vw;
-    height: 30vw;
-    background-color: #1d3ad8;
-    position: absolute;
-    text-align: end;
-    right: 1vw;
-    color: #a3b2ff;
-    font-family: Pt sans;
 
-}
 
-#tekst_3_ux {
-    width: 40vw;
-    height: 25vw;
-    background-color: #1d3ad8;
-    position: absolute;
-    top: 9vw;
-    left: 2vw;
-    color: #a3b2ff;
-    font-family: Pt sans;
-    line-height: 1.6em;
 
-}
 
 /**********' animation **********/
 
@@ -666,30 +575,8 @@ nav a {
     margin-bottom: 2vw;
 }
 
-#overskrift_1_ani {
-    width: 48vw;
-    height: 20vw;
-    background-color: #1d3ad8;
-    position: absolute;
-    text-align: end;
-    right: 1vw;
-    color: #a3b2ff;
-    font-family: Pt sans;
 
-}
 
-#tekst_1_ani {
-    width: 40vw;
-    height: 25vw;
-    background-color: #1d3ad8;
-    position: absolute;
-    top: 9vw;
-    left: 2vw;
-    color: #a3b2ff;
-    font-family: Pt sans;
-    line-height: 1.6em;
-
-}
 
 #ani_billede_container_2 {
     width: 52vw;
@@ -725,30 +612,8 @@ nav a {
     margin-bottom: 2vw;
 }
 
-#overskrift_2_ani {
-    width: 48vw;
-    height: 20vw;
-    background-color: #1d3ad8;
-    position: absolute;
-    text-align: end;
-    right: 1vw;
-    color: #a3b2ff;
-    font-family: Pt sans;
 
-}
 
-#tekst_2_ani {
-    width: 40vw;
-    height: 25vw;
-    background-color: #1d3ad8;
-    position: absolute;
-    top: 9vw;
-    left: 2vw;
-    color: #a3b2ff;
-    font-family: Pt sans;
-    line-height: 1.6em;
-
-}
 
 #ani_billede_container_3 {
     width: 65vw;
@@ -817,30 +682,9 @@ nav a {
     margin-bottom: 2vw;
 }
 
-#overskrift_3_ani {
-    width: 48vw;
-    height: 20vw;
-    background-color: #1d3ad8;
-    position: absolute;
-    text-align: end;
-    right: 1vw;
-    color: #a3b2ff;
-    font-family: Pt sans;
 
-}
 
-#tekst_3_ani {
-    width: 40vw;
-    height: 25vw;
-    background-color: #1d3ad8;
-    position: absolute;
-    top: 9vw;
-    left: 2vw;
-    color: #a3b2ff;
-    font-family: Pt sans;
-    line-height: 1.6em;
 
-}
 
 
 /************ indhold *********/
@@ -877,30 +721,9 @@ video {
     margin-bottom: 2vw;
 }
 
-#overskrift_1_ind {
-    width: 48vw;
-    height: 20vw;
-    background-color: #1d3ad8;
-    position: absolute;
-    text-align: end;
-    right: 1vw;
-    color: #a3b2ff;
-    font-family: Pt sans;
 
-}
 
-#tekst_1_ind {
-    width: 40vw;
-    height: 25vw;
-    background-color: #1d3ad8;
-    position: absolute;
-    top: 9vw;
-    left: 2vw;
-    color: #a3b2ff;
-    font-family: Pt sans;
-    line-height: 1.6em;
 
-}
 
 #ind_billede_container_1 {
     width: 65vw;
@@ -967,29 +790,4 @@ video {
     top: 137vw;
     display: flex;
     margin-bottom: 2vw;
-}
-
-#overskrift_2_ind {
-    width: 48vw;
-    height: 20vw;
-    background-color: #1d3ad8;
-    position: absolute;
-    text-align: end;
-    right: 1vw;
-    color: #a3b2ff;
-    font-family: Pt sans;
-
-}
-
-#tekst_2_ind {
-    width: 40vw;
-    height: 25vw;
-    background-color: #1d3ad8;
-    position: absolute;
-    top: 9vw;
-    left: 2vw;
-    color: #a3b2ff;
-    font-family: Pt sans;
-    line-height: 1.6em;
-
 }
