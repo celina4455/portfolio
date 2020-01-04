@@ -25,8 +25,8 @@ body {
 
 @media (orientation:portrait) and (max-width: 500px) {
     #splash {
-        width: 414px;
-        height: 720px;
+        width: 100%;
+        height: 100%;
         position: absolute;
         top: 17vw;
         left: 0vw;
@@ -114,6 +114,10 @@ nav a {
 
     #typewriter_text_wide {
         display: none;
+    }
+
+    nav {
+        width: 70vw;
     }
 
 }
@@ -236,7 +240,7 @@ nav a {
     height: 20vw;
     background-color: #536df7;
     position: absolute;
-    left: 30vw;
+    left: 32vw;
     top: 10vw;
 }
 
@@ -262,6 +266,49 @@ nav a {
     margin-bottom: 2vw;
     display: flex;
     flex-direction: column;
+
+}
+
+@media only screen and (max-width: 1100px) {
+
+    #cv_billede_container {
+        width: 90vw;
+        height: 60vw;
+        background-color: #536df7;
+        position: absolute;
+        left: 5vw;
+        top: 20vw;
+    }
+
+    #portraet {
+        width: 60vw;
+        height: 45vw;
+        background-image: url(billeder/cv_billede.jpg);
+        background-size: cover;
+        position: absolute;
+        left: 2vw;
+        top: 2vw;
+
+    }
+
+    #cv_tekst_container {
+        width: 60vw;
+        height: 72vw;
+        background-color: #1d3ad8;
+        position: absolute;
+        left: 30vw;
+        top: 90vw;
+        display: flex;
+        margin-bottom: 2vw;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    nav {
+        position: absolute;
+        top: 11vw;
+    }
 }
 
 h1 {
@@ -363,13 +410,70 @@ h1 {
     position: absolute;
     left: 45vw;
     top: 43vw;
-    display: flex;
-    flex-direction: column;
     margin-bottom: 2vw;
 }
 
 
+@media only screen and (max-width: 1100px) {
 
+    #web_billede_container {
+        width: 90vw;
+        height: 250vw;
+        background-color: #536df7;
+        position: absolute;
+        left: 5vw;
+        top: 20vw;
+    }
+
+    #billede1_web {
+        width: 76vw;
+        height: 38vw;
+        background-image: url(billeder/billede1.png);
+        background-size: cover;
+        position: absolute;
+        top: 0.75vw;
+        left: 1vw;
+
+    }
+
+    #billede2_web {
+        width: 76vw;
+        height: 38vw;
+        background-image: url(billeder/billede2.png);
+        background-size: cover;
+        position: absolute;
+        top: 45vw;
+        left: 1vw;
+
+    }
+
+    #billede3_web {
+        width: 65vw;
+        height: 115vw;
+        background-image: url(billeder/billede3.png);
+        background-size: cover;
+        position: absolute;
+        top: 100vw;
+        right: 6vw;
+
+    }
+
+
+    #web_tekst_container {
+        width: 60vw;
+        height: 72vw;
+        background-color: #1d3ad8;
+        position: absolute;
+        left: 30vw;
+        top: 290vw;
+        margin-bottom: 2vw;
+    }
+
+    nav {
+        position: absolute;
+        top: 11vw;
+    }
+}
 
 
 
@@ -588,6 +692,216 @@ h1 {
 }
 
 
+@media only screen and (max-width: 1100px) {
+    #ux_billede_container_1 {
+        width: 90vw;
+        height: 200vw;
+        background-color: #536df7;
+        position: absolute;
+        left: 3vw;
+        top: 17vw;
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    #billede4 {
+        width: 42vw;
+        height: 56vw;
+        background-image: url(billeder/billede4.png);
+        background-size: cover;
+        position: absolute;
+        top: 0.75vw;
+        left: 1vw;
+
+    }
+
+    #billede5 {
+        width: 42vw;
+        height: 56vw;
+        background-image: url(billeder/billede5.png);
+        background-size: cover;
+        position: absolute;
+        top: 0.75vw;
+        left: 45vw;
+
+    }
+
+    #billede6 {
+        width: 42vw;
+        height: 56vw;
+        background-image: url(billeder/billede6.png);
+        background-size: cover;
+        position: absolute;
+        top: 60vw;
+        left: 1vw;
+
+    }
+
+    #billede7 {
+        width: 42vw;
+        height: 56vw;
+        background-image: url(billeder/billede7.png);
+        background-size: cover;
+        position: absolute;
+        top: 60vw;
+        left: 45vw;
+
+    }
+
+    #billede8 {
+        width: 42vw;
+        height: 56vw;
+        background-image: url(billeder/billede8.png);
+        background-size: cover;
+        position: absolute;
+        top: 120vw;
+        left: 1vw;
+
+    }
+
+    #ux_tekst_container1 {
+        width: 60vw;
+        height: 65vw;
+        background-color: #1d3ad8;
+        position: absolute;
+        left: 30vw;
+        top: 230vw;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 2vw;
+    }
+
+
+
+    #ux_billede_container_2 {
+        width: 90vw;
+        height: 150vw;
+        background-color: #536df7;
+        position: absolute;
+        left: 3vw;
+        top: 550vw;
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    #billede9 {
+        width: 54vw;
+        height: 117vw;
+        background-image: url(billeder/billede9.png);
+        background-size: cover;
+        position: absolute;
+        top: 14vw;
+        left: 25vw;
+        z-index: 1;
+
+    }
+
+    #billede10 {
+        width: 54vw;
+        height: 117vw;
+        background-image: url(billeder/billede10.png);
+        background-size: cover;
+        position: absolute;
+        top: 0.75vw;
+        left: 1vw;
+
+    }
+
+    #ux_tekst_container2 {
+        width: 60vw;
+        height: 50vw;
+        background-color: #1d3ad8;
+        position: absolute;
+        left: 30vw;
+        top: 720vw;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 2vw;
+    }
+
+
+    #ux_billede_container_3 {
+        width: 90vw;
+        height: 320vw;
+        background-color: #536df7;
+        position: absolute;
+        left: 3vw;
+        top: 965vw;
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    #billede11 {
+        width: 80vw;
+        height: 56vw;
+        background-image: url(billeder/billede11.png);
+        background-size: cover;
+        position: absolute;
+        top: 2vw;
+        left: 2vw;
+
+    }
+
+    #billede12 {
+        width: 80vw;
+        height: 56vw;
+        background-image: url(billeder/billede12.png);
+        background-size: cover;
+        position: absolute;
+        top: 62vw;
+        left: 2vw;
+
+    }
+
+    #billede13 {
+        width: 80vw;
+        height: 56vw;
+        background-image: url(billeder/billede13.png);
+        background-size: cover;
+        position: absolute;
+        top: 122vw;
+        left: 2vw;
+
+    }
+
+    #billede14 {
+        width: 80vw;
+        height: 56vw;
+        background-image: url(billeder/billede14.png);
+        background-size: cover;
+        position: absolute;
+        top: 182vw;
+        left: 2vw;
+
+    }
+
+    #billede15 {
+        width: 80vw;
+        height: 56vw;
+        background-image: url(billeder/billede15.png);
+        background-size: cover;
+        position: absolute;
+        top: 242vw;
+        left: 2vw;
+
+    }
+
+    #ux_tekst_container3 {
+        width: 60vw;
+        height: 65vw;
+        background-color: #1d3ad8;
+        position: absolute;
+        left: 30vw;
+        top: 1300vw;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 2vw;
+    }
+
+}
 
 
 
@@ -792,6 +1106,208 @@ h1 {
     margin-bottom: 2vw;
 }
 
+@media only screen and (max-width: 1100px) {
+
+    #ani_billede_container_1 {
+        width: 90vw;
+        height: 300vw;
+        background-color: #536df7;
+        position: absolute;
+        left: 3vw;
+        top: 17vw;
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    #billede16 {
+        width: 80vw;
+        height: 45vw;
+        background-image: url(billeder/billede16.png);
+        background-size: cover;
+        position: absolute;
+        top: 0.5vw;
+        left: 1vw;
+
+    }
+
+    #billede17 {
+        width: 80vw;
+        height: 45vw;
+        background-image: url(billeder/billede17.png);
+        background-size: cover;
+        position: absolute;
+        top: 47vw;
+        left: 1vw;
+
+    }
+
+    #billede18 {
+        width: 80vw;
+        height: 45vw;
+        background-image: url(billeder/billede18.png);
+        background-size: cover;
+        position: absolute;
+        top: 94vw;
+        left: 1vw;
+
+    }
+
+    #billede19 {
+        width: 80vw;
+        height: 45vw;
+        background-image: url(billeder/billede19.png);
+        background-size: cover;
+        position: absolute;
+        top: 141vw;
+        left: 1vw;
+
+    }
+
+    #billede20 {
+        width: 80vw;
+        height: 45vw;
+        background-image: url(billeder/billede20.png);
+        background-size: cover;
+        position: absolute;
+        top: 188vw;
+        left: 1vw;
+
+    }
+
+    #billede21 {
+        width: 80vw;
+        height: 45vw;
+        background-image: url(billeder/billede21.png);
+        background-size: cover;
+        position: absolute;
+        top: 235vw;
+        left: 1vw;
+
+    }
+
+    #ani_tekst_container1 {
+        width: 60vw;
+        height: 40vw;
+        background-color: #1d3ad8;
+        position: absolute;
+        left: 30vw;
+        top: 330vw;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 2vw;
+    }
+
+
+
+
+    #ani_billede_container_2 {
+        width: 90vw;
+        height: 65vw;
+        background-color: #536df7;
+        position: absolute;
+        left: 3vw;
+        top: 530vw;
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    #billede22 {
+        width: 80vw;
+        height: 45vw;
+        background-image: url(billeder/billede22.png);
+        background-size: cover;
+        position: absolute;
+        top: 0.75vw;
+        left: 1vw;
+
+    }
+
+    #ani_tekst_container2 {
+        width: 60vw;
+        height: 56vw;
+        background-color: #1d3ad8;
+        position: absolute;
+        left: 30vw;
+        top: 610vw;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 2vw;
+    }
+
+
+
+
+    #ani_billede_container_3 {
+        width: 90vw;
+        height: 205vw;
+        background-color: #536df7;
+        position: absolute;
+        left: 3vw;
+        top: 890vw;
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    #billede23 {
+        width: 80vw;
+        height: 45vw;
+        background-image: url(billeder/billede23.png);
+        background-size: cover;
+        position: absolute;
+        top: 0.5vw;
+        left: 1vw;
+
+    }
+
+    #billede24 {
+        width: 80vw;
+        height: 45vw;
+        background-image: url(billeder/billede24.png);
+        background-size: cover;
+        position: absolute;
+        top: 47vw;
+        left: 1vw;
+
+    }
+
+    #billede25 {
+        width: 80vw;
+        height: 45vw;
+        background-image: url(billeder/billede25.png);
+        background-size: cover;
+        position: absolute;
+        top: 94vw;
+        left: 1vw;
+
+    }
+
+    #billede26 {
+        width: 80vw;
+        height: 45vw;
+        background-image: url(billeder/billede26.png);
+        background-size: cover;
+        position: absolute;
+        top: 141vw;
+        left: 1vw;
+
+    }
+
+    #ani_tekst_container3 {
+        width: 60vw;
+        height: 56vw;
+        background-color: #1d3ad8;
+        position: absolute;
+        left: 30vw;
+        top: 1115vw;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 2vw;
+    }
+
+}
 
 
 
@@ -806,8 +1322,7 @@ h1 {
     position: absolute;
     left: 33vw;
     top: 10vw;
-    display: flex;
-    flex-wrap: wrap;
+
 
 }
 
@@ -902,4 +1417,114 @@ video {
     display: flex;
     flex-direction: column;
     margin-bottom: 2vw;
+}
+
+
+@media only screen and (max-width: 1100px) {
+
+    #ind_video_container {
+        width: 90vw;
+        height: 70vw;
+        background-color: #536df7;
+        position: absolute;
+        left: 3vw;
+        top: 17vw;
+
+
+    }
+
+    video {
+        height: 56vw;
+        width: 84vw;
+        position: absolute;
+        top: 0.75vw;
+        left: 1vw;
+
+    }
+
+    #ind_tekst_container1 {
+        width: 60vw;
+        height: 38vw;
+        background-color: #1d3ad8;
+        position: absolute;
+        left: 30vw;
+        top: 105vw;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 2vw;
+    }
+
+
+
+
+
+    #ind_billede_container_1 {
+        width: 90vw;
+        height: 207vw;
+        background-color: #536df7;
+        position: absolute;
+        left: 3vw;
+        top: 340vw;
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    #billede27 {
+        width: 80vw;
+        height: 45vw;
+        background-image: url(billeder/billede27.png);
+        background-size: cover;
+        position: absolute;
+        top: 0.75vw;
+        left: 1vw;
+
+    }
+
+    #billede28 {
+        width: 80vw;
+        height: 45vw;
+        background-image: url(billeder/billede28.png);
+        background-size: cover;
+        position: absolute;
+        top: 47vw;
+        left: 1vw;
+
+    }
+
+    #billede29 {
+        width: 80vw;
+        height: 45vw;
+        background-image: url(billeder/billede29.png);
+        background-size: cover;
+        position: absolute;
+        top: 94vw;
+        left: 1vw;
+
+    }
+
+    #billede30 {
+        width: 80vw;
+        height: 45vw;
+        background-image: url(billeder/billede30.png);
+        background-size: cover;
+        position: absolute;
+        top: 141vw;
+        left: 1vw;
+
+    }
+
+    #ind_tekst_container2 {
+        width: 60vw;
+        height: 56vw;
+        background-color: #1d3ad8;
+        position: absolute;
+        left: 30vw;
+        top: 565vw;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 2vw;
+    }
+
+
 }
