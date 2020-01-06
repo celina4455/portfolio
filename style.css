@@ -126,10 +126,11 @@ nav {
     display: flex;
     flex-direction: row;
     width: 30vw;
-    background-color: #fcaf21;
+    background-color: #fca632;
     position: fixed;
     top: 11vw;
     z-index: 1;
+
 }
 
 
@@ -141,7 +142,7 @@ nav a {
     color: #1d3ad8;
     text-decoration: none;
     font-size: 2.2em;
-    line-height: 2em;
+    line-height: 2.7em;
     font-family: Courier, monospace;
 
 }
@@ -191,27 +192,27 @@ nav a:hover {
 
 
 
-#nav_forside {
+.nav_forside {
     padding-left: 1vw;
 }
 
-#nav_celina {
+.nav_celina {
     padding-left: 14vw;
 }
 
-#nav_web {
+.nav_web {
     padding-left: 1vw;
 }
 
-#nav_ux {
+.nav_ux {
     padding-left: 14vw;
 }
 
-#nav_animation {
+.nav_animation {
     padding-left: 1vw;
 }
 
-#nav_indhold {
+.nav_indhold {
     padding-left: 14vw;
 }
 
@@ -236,7 +237,8 @@ nav a:hover {
     display: inline-block;
     overflow: hidden;
     animation: typing 3s steps(30, end), blink .75s step-end infinite;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
     white-space: nowrap;
     font-size: 2.5em;
     font-weight: 500;
