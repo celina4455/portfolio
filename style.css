@@ -6,6 +6,9 @@ body {
     background-color: #fcaf21;
 }
 
+a {
+    cursor: pointer;
+}
 
 /******** forside **********/
 
@@ -41,6 +44,14 @@ body {
     top: 3vw;
 }
 
+@media only screen and (max-width: 1100px) {
+    .typewriter {
+        top: 1vw;
+        left: 28vw;
+    }
+
+}
+
 #typewriter_text_wide {
     display: inline-block;
     overflow: hidden;
@@ -69,6 +80,45 @@ body {
 
 
 
+.burger_kryds {
+    font-size: 1.7rem;
+    padding-right: 0.1rem;
+    transform: scale(1.4, 1);
+    margin-bottom: 0;
+    color: black;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#burger {
+    position: relative;
+    /*    top: 25vw;*/
+    left: 0;
+    width: 100vw;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+
+
+}
+
+#mylinks {
+    display: none;
+}
+
+#menuknap {
+    position: absolute;
+    top: -2.3rem;
+    left: 0.5rem;
+    font-size: 2.3rem;
+    z-index: 100;
+    font-family: montserrat, sans-serif;
+
+    font-weight: 400;
+    display: flex;
+    font-style: normal;
+
+
+}
 
 /******** nav **********/
 
@@ -96,6 +146,10 @@ nav a {
 
 }
 
+nav a:hover {
+    color: #a3b2ff;
+}
+
 .hidden {
     display: none;
 }
@@ -117,7 +171,7 @@ nav a {
     }
 
     nav {
-        width: 70vw;
+        width: 80vw;
     }
 
 }
@@ -257,7 +311,7 @@ nav a {
 
 #cv_tekst_container {
     width: 50vw;
-    height: 72vw;
+    height: 70vw;
     background-color: #1d3ad8;
     position: absolute;
     left: 45vw;
@@ -297,7 +351,7 @@ nav a {
         background-color: #1d3ad8;
         position: absolute;
         left: 30vw;
-        top: 90vw;
+        top: 98vw;
         display: flex;
         margin-bottom: 2vw;
         display: flex;
@@ -312,13 +366,28 @@ nav a {
 }
 
 h1 {
-    width: 48vw;
-    /*    height: 10vw;*/
+    max-width: 60vw;
     background-color: #1d3ad8;
     text-align: end;
     right: 1vw;
     color: #a3b2ff;
     font-family: Phosphate;
+
+
+}
+
+@media only screen and (max-width: 1100px) {
+
+    h1 {
+        max-width: 60vw;
+        background-color: #1d3ad8;
+        text-align: end;
+        right: 1vw;
+        color: #a3b2ff;
+        font-family: Phosphate;
+        font-size: 1.2em;
+
+    }
 
 }
 
@@ -405,7 +474,7 @@ h1 {
 
 #web_tekst_container {
     width: 50vw;
-    height: 60vw;
+    height: 58vw;
     background-color: #1d3ad8;
     position: absolute;
     left: 45vw;
@@ -465,7 +534,7 @@ h1 {
         background-color: #1d3ad8;
         position: absolute;
         left: 30vw;
-        top: 290vw;
+        top: 288vw;
         margin-bottom: 2vw;
     }
 
@@ -681,7 +750,7 @@ h1 {
 
 #ux_tekst_container3 {
     width: 50vw;
-    height: 65vw;
+    height: 60vw;
     background-color: #1d3ad8;
     position: absolute;
     left: 45vw;
@@ -766,7 +835,7 @@ h1 {
         background-color: #1d3ad8;
         position: absolute;
         left: 30vw;
-        top: 230vw;
+        top: 233vw;
         display: flex;
         flex-direction: column;
         margin-bottom: 2vw;
@@ -780,7 +849,7 @@ h1 {
         background-color: #536df7;
         position: absolute;
         left: 3vw;
-        top: 550vw;
+        top: 810vw;
         display: flex;
         flex-wrap: wrap;
 
@@ -815,7 +884,7 @@ h1 {
         background-color: #1d3ad8;
         position: absolute;
         left: 30vw;
-        top: 720vw;
+        top: 978vw;
         display: flex;
         flex-direction: column;
         margin-bottom: 2vw;
@@ -828,7 +897,7 @@ h1 {
         background-color: #536df7;
         position: absolute;
         left: 3vw;
-        top: 965vw;
+        top: 1387vw;
         display: flex;
         flex-wrap: wrap;
 
@@ -895,7 +964,7 @@ h1 {
         background-color: #1d3ad8;
         position: absolute;
         left: 30vw;
-        top: 1300vw;
+        top: 1725vw;
         display: flex;
         flex-direction: column;
         margin-bottom: 2vw;
@@ -1096,7 +1165,7 @@ h1 {
 
 #ani_tekst_container3 {
     width: 50vw;
-    height: 56vw;
+    height: 52vw;
     background-color: #1d3ad8;
     position: absolute;
     left: 45vw;
@@ -1192,7 +1261,7 @@ h1 {
         background-color: #1d3ad8;
         position: absolute;
         left: 30vw;
-        top: 330vw;
+        top: 335vw;
         display: flex;
         flex-direction: column;
         margin-bottom: 2vw;
@@ -1207,7 +1276,7 @@ h1 {
         background-color: #536df7;
         position: absolute;
         left: 3vw;
-        top: 530vw;
+        top: 643vw;
         display: flex;
         flex-wrap: wrap;
 
@@ -1230,7 +1299,7 @@ h1 {
         background-color: #1d3ad8;
         position: absolute;
         left: 30vw;
-        top: 610vw;
+        top: 725vw;
         display: flex;
         flex-direction: column;
         margin-bottom: 2vw;
@@ -1245,7 +1314,7 @@ h1 {
         background-color: #536df7;
         position: absolute;
         left: 3vw;
-        top: 890vw;
+        top: 1218vw;
         display: flex;
         flex-wrap: wrap;
 
@@ -1301,7 +1370,7 @@ h1 {
         background-color: #1d3ad8;
         position: absolute;
         left: 30vw;
-        top: 1115vw;
+        top: 1440vw;
         display: flex;
         flex-direction: column;
         margin-bottom: 2vw;
@@ -1464,7 +1533,7 @@ video {
         background-color: #536df7;
         position: absolute;
         left: 3vw;
-        top: 340vw;
+        top: 375vw;
         display: flex;
         flex-wrap: wrap;
 
@@ -1520,7 +1589,7 @@ video {
         background-color: #1d3ad8;
         position: absolute;
         left: 30vw;
-        top: 565vw;
+        top: 600vw;
         display: flex;
         flex-direction: column;
         margin-bottom: 2vw;
