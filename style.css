@@ -68,7 +68,7 @@ a {
 #typewriter_text_narrow {
     display: inline-block;
     overflow: hidden;
-    animation: typing 3s steps(30, end), blink .75s step-end infinite;
+    animation: typing 4s steps(30, end), blink .75s step-end infinite;
     animation-iteration-count: infinite;
     white-space: nowrap;
     font-size: 2.5em;
@@ -92,11 +92,9 @@ a {
 
 #burger {
     position: relative;
-    /*    top: 25vw;*/
     left: 0;
     width: 100vw;
-    border-top-left-radius: 5%;
-    border-top-right-radius: 5%;
+
 
 
 }
@@ -112,7 +110,6 @@ a {
     font-size: 2.3rem;
     z-index: 100;
     font-family: montserrat, sans-serif;
-
     font-weight: 400;
     display: flex;
     font-style: normal;
@@ -317,7 +314,7 @@ nav a:hover {
     background-color: #1d3ad8;
     position: absolute;
     left: 45vw;
-    top: 32vw;
+    top: 35vw;
     display: flex;
     margin-bottom: 2vw;
     display: flex;
@@ -409,7 +406,9 @@ h1 {
 
 .tekst a {
     color: #a3b2ff;
-    font-family: Pt sans;
+    font-family: Phosphate;
+    text-decoration: none;
+    font-size: 1.3em;
 }
 
 /******** web **********/
@@ -480,7 +479,7 @@ h1 {
     background-color: #1d3ad8;
     position: absolute;
     left: 45vw;
-    top: 43vw;
+    top: 45vw;
     margin-bottom: 2vw;
 }
 
@@ -638,7 +637,7 @@ h1 {
     background-color: #536df7;
     position: absolute;
     left: 33vw;
-    top: 192vw;
+    top: 195vw;
     display: flex;
     flex-wrap: wrap;
 
@@ -673,7 +672,7 @@ h1 {
     background-color: #1d3ad8;
     position: absolute;
     left: 45vw;
-    top: 245vw;
+    top: 247vw;
     display: flex;
     flex-direction: column;
     margin-bottom: 2vw;
@@ -681,7 +680,15 @@ h1 {
 
 
 
+.grow {
+    transition: all .2s ease-in-out;
+}
 
+.grow:hover {
+    transform: scale(1.5);
+    z-index: 101;
+    cursor: zoom-in;
+}
 
 #ux_billede_container_3 {
     width: 58vw;
@@ -756,7 +763,7 @@ h1 {
     background-color: #1d3ad8;
     position: absolute;
     left: 45vw;
-    top: 360vw;
+    top: 357vw;
     display: flex;
     flex-direction: column;
     margin-bottom: 2vw;
@@ -1077,7 +1084,7 @@ h1 {
     background-color: #536df7;
     position: absolute;
     left: 33vw;
-    top: 123vw;
+    top: 122vw;
     display: flex;
     flex-wrap: wrap;
 
@@ -1100,7 +1107,7 @@ h1 {
     background-color: #1d3ad8;
     position: absolute;
     left: 45vw;
-    top: 160vw;
+    top: 157vw;
     display: flex;
     flex-direction: column;
     margin-bottom: 2vw;
@@ -1115,7 +1122,7 @@ h1 {
     background-color: #536df7;
     position: absolute;
     left: 33vw;
-    top: 222vw;
+    top: 218vw;
     display: flex;
     flex-wrap: wrap;
 
@@ -1171,7 +1178,7 @@ h1 {
     background-color: #1d3ad8;
     position: absolute;
     left: 45vw;
-    top: 275vw;
+    top: 268vw;
     display: flex;
     flex-direction: column;
     margin-bottom: 2vw;
@@ -1428,7 +1435,7 @@ video {
     background-color: #536df7;
     position: absolute;
     left: 33vw;
-    top: 85vw;
+    top: 83vw;
     display: flex;
     flex-wrap: wrap;
 
@@ -1484,7 +1491,7 @@ video {
     background-color: #1d3ad8;
     position: absolute;
     left: 45vw;
-    top: 137vw;
+    top: 133vw;
     display: flex;
     flex-direction: column;
     margin-bottom: 2vw;
