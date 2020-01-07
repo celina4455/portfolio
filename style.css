@@ -10,6 +10,16 @@ a {
     cursor: pointer;
 }
 
+.grow {
+    transition: all .2s ease-in-out;
+}
+
+.grow:hover {
+    transform: scale(1.5);
+    z-index: 101;
+    cursor: zoom-in;
+}
+
 /******** forside **********/
 
 #splash {
@@ -26,7 +36,7 @@ a {
 
 
 
-@media (orientation:portrait) and (max-width: 500px) {
+@media (orientation:portrait) and (max-width: 1100px) {
     #splash {
         width: 100%;
         height: 100%;
@@ -370,7 +380,7 @@ h1 {
     text-align: end;
     right: 1vw;
     color: #a3b2ff;
-    font-family: Phosphate;
+    font-family: 'Coda Caption', sans-serif;
 
 
 }
@@ -383,32 +393,32 @@ h1 {
         text-align: end;
         right: 1vw;
         color: #a3b2ff;
-        font-family: Phosphate;
-        font-size: 1.2em;
+        font-family: 'Coda Caption', sans-serif;
+        font-size: 1em;
 
     }
 
 }
 
 .tekst {
-    /*    width: 40vw;*/
+
     background-color: #1d3ad8;
-    /*    position: absolute;*/
+
     top: 9vw;
     left: 2vw;
     color: #a3b2ff;
-    font-family: Lucida sans;
+    font-family: 'Lato', sans-serif;
     line-height: 1.6em;
-    font-size: 0.9em;
+    font-size: 0.93em;
     padding: 3vw;
 
 }
 
 .tekst a {
     color: #a3b2ff;
-    font-family: Phosphate;
+    font-family: 'Coda Caption', sans-serif;
     text-decoration: none;
-    font-size: 1.3em;
+    font-size: 1em;
 }
 
 /******** web **********/
@@ -680,15 +690,7 @@ h1 {
 
 
 
-.grow {
-    transition: all .2s ease-in-out;
-}
 
-.grow:hover {
-    transform: scale(1.5);
-    z-index: 101;
-    cursor: zoom-in;
-}
 
 #ux_billede_container_3 {
     width: 58vw;
@@ -906,7 +908,7 @@ h1 {
         background-color: #536df7;
         position: absolute;
         left: 3vw;
-        top: 1387vw;
+        top: 1390vw;
         display: flex;
         flex-wrap: wrap;
 
@@ -973,7 +975,7 @@ h1 {
         background-color: #1d3ad8;
         position: absolute;
         left: 30vw;
-        top: 1725vw;
+        top: 1726vw;
         display: flex;
         flex-direction: column;
         margin-bottom: 2vw;
@@ -1323,7 +1325,7 @@ h1 {
         background-color: #536df7;
         position: absolute;
         left: 3vw;
-        top: 1218vw;
+        top: 1222vw;
         display: flex;
         flex-wrap: wrap;
 
@@ -1379,7 +1381,7 @@ h1 {
         background-color: #1d3ad8;
         position: absolute;
         left: 30vw;
-        top: 1440vw;
+        top: 1443vw;
         display: flex;
         flex-direction: column;
         margin-bottom: 2vw;
@@ -1526,7 +1528,7 @@ video {
         background-color: #1d3ad8;
         position: absolute;
         left: 30vw;
-        top: 105vw;
+        top: 103vw;
         display: flex;
         flex-direction: column;
         margin-bottom: 2vw;
@@ -1542,7 +1544,7 @@ video {
         background-color: #536df7;
         position: absolute;
         left: 3vw;
-        top: 375vw;
+        top: 371vw;
         display: flex;
         flex-wrap: wrap;
 
@@ -1598,7 +1600,7 @@ video {
         background-color: #1d3ad8;
         position: absolute;
         left: 30vw;
-        top: 600vw;
+        top: 596vw;
         display: flex;
         flex-direction: column;
         margin-bottom: 2vw;
